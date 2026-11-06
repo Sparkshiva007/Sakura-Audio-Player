@@ -1,0 +1,34 @@
+# Object files and compiler intermediate artifacts
+*.o
+*.d
+*.obj
+*.elf
+*.map
+build/
+.cache/
+
+# Executables generated locally
+cur_chunk.bin
+_flash_chunk.bin
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec.bak
+dist/
+build/
+
+# VS Code and editor configs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
